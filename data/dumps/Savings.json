@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "1",
+    "userId": "user1",
+    "amount": 1000,
+    "goal": "Vacation",
+    "date": "2023-12-31"
+  },
+  {
+    "_id": "2",
+    "userId": "user2",
+    "amount": 2000,
+    "goal": "New Laptop",
+    "date": "2023-11-30"
+  }
+]

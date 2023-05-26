@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "1",
+    "userId": "user1",
+    "amount": 200,
+    "category": "Groceries",
+    "date": "2023-05-25"
+  },
+  {
+    "_id": "2",
+    "userId": "user2",
+    "amount": 150,
+    "category": "Transport",
+    "date": "2023-05-24"
+  }
+]

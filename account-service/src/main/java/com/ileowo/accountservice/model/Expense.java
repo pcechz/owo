@@ -8,16 +8,20 @@ import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
 
-// Model
-@Document(collection = "accounts")
-public class Account {
+/**
+ * Created by macbook on 25/05/2023.
+ * Author: Pet'r Esan
+ */
+@Document(collection = "expenses")
+public class Expense {
     @Id
     private String id;
     @NotEmpty
-    private String userId;
-
+    private String accountId;
     @NotNull
     @DecimalMin("0.0")
-    private BigDecimal balance;
+    private BigDecimal amount;
+    @NotEmpty
+    private String category;
     // getters and setters...
 }

@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "1",
+    "userId": "user1",
+    "amount": 5000,
+    "source": "Salary",
+    "date": "2023-05-25"
+  },
+  {
+    "_id": "2",
+    "userId": "user2",
+    "amount": 3000,
+    "source": "Freelance",
+    "date": "2023-05-24"
+  }
+]
